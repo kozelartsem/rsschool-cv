@@ -1,5 +1,19 @@
 .title {
     display: block;
-    color: red;
+    color: green;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 100px;}
+    
+.address{
+    color: blue;
+    display: block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;}
+.abv{
+    color: blue;
+    display: block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;}
+.city{
+    color:brown;
+}
