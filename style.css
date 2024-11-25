@@ -1,19 +1,51 @@
-.title {
-    display: block;
-    color: green;
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 100px;}
-    
-.address{
-    color: blue;
-    display: block;
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 20px;}
-.abv{
-    color: blue;
-    display: block;
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 20px;}
-.city{
-    color:brown;
+.logo_wrapper {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo_title {
+  color: brown;
+}
+.nav_list a {
+  text-decoration: none;
+}
+.nav_list li {
+  list-style: none;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #5757a0;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: lavender;
+  border-bottom: 5px solid #5757a0;
+}
+
+.skils {
+  background-color: aquamarine;
+}
+.skils li {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: yellow;
+  display: inline-block;
+  padding: 100px 70px;
+  background-color: rgb(0, 13, 129);
+  border-bottom: 5px solid #5757a0;
+  justify-content: space-between;
+}
+
+.Contacts {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title_skils {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: aquamarine; */
 }
